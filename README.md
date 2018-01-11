@@ -19,18 +19,18 @@ sudo pip3 install -U requests flask
 ```
 - Clone this project,
 ```bash
-cd ~/bin/
-git clone https://github.com/Naereen/GMusicBrowser-FullScreen-WebApp
+cd ~/publis/
+git clone https://github.com/Naereen/GMusicBrowser-FullScreen-WebApp.git
 ```
-- Save it somewhere, for instance `~/bin/GMusicBrowser-FullScreen-WebApp`,
+- Save it somewhere, for instance `~/publis/GMusicBrowser-FullScreen-WebApp.git`,
 - When you want to use it, go in the folder, and do `make`.
 
-Note: you can also use [this .desktop file](GMusicBrowser-FullScreen-WebApp.desktop) to install this as a desktop application:
+Note: you can also use [this .desktop file](gmusicbrowser-fullscreen-webapp.desktop) to install this as a desktop application:
 
 ```bash
-$ desktop-file-validate GMusicBrowser-FullScreen-WebApp.desktop
+$ desktop-file-validate gmusicbrowser-fullscreen-webapp.desktop
 # if this is OK, install it
-$ sudo desktop-file-install GMusicBrowser-FullScreen-WebApp.desktop
+$ sudo desktop-file-install gmusicbrowser-fullscreen-webapp.desktop
 ```
 
 Then the application will be available from your desktop menu, under the name "Full screen mode for GMusicBrowser".
@@ -40,10 +40,10 @@ In GMusicBrowser settings, under the tab "Plugins", enable the "Current song" pl
 and use these two values for the two text boxes:
 
 - Command to run when the song starts:
-  `/home/lilian/bin/GMusicBrowser-FullScreen-WebApp/update_ui.py start %t %a %l %y %d %n %f %c`
+  `/home/lilian/publis/GMusicBrowser-FullScreen-WebApp.git/update_ui.py start %t %a %l %y %d %n %f %c`
 
 - Command to run when the song stops:
-  `/home/lilian/bin/GMusicBrowser-FullScreen-WebApp/update_ui.py stop %t %a %l %y %d %n %f %c`
+  `/home/lilian/publis/GMusicBrowser-FullScreen-WebApp.git/update_ui.py stop %t %a %l %y %d %n %f %c`
 
 Of course, adapt the path to where you downloaded and saved `gmusicbrowser_fullscreen_info`.
 

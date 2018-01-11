@@ -24,11 +24,11 @@ open_macosx:
 	open http://0.0.0.0:9999/ &
 
 # Test and install the .desktop file
-desktop-file-validate:
-	desktop-file-validate GMusicBrowser-FullScreen-WebApp.desktop
+desktop-validate:
+	desktop-file-validate gmusicbrowser-fullscreen-webapp.desktop
 
-desktop-file-install:
-	sudo desktop-file-install GMusicBrowser-FullScreen-WebApp.desktop
+desktop-install:
+	sudo desktop-file-install gmusicbrowser-fullscreen-webapp.desktop
 
 # Test
 test_start:

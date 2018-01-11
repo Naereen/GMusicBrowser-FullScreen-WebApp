@@ -7,10 +7,10 @@ In GMusicBrowser settings, under the tab "Plugins", enable the "Current song" pl
 and use these two values for the two text boxes:
 
 - Command to run when the song starts:
-/home/lilian/bin/gmusicbrowser_fullscreen_info/update_ui.py start %t %a %l %y %d %n %f %c
+/home/lilian/publis/GMusicBrowser-FullScreen-WebApp.git/update_ui.py start %t %a %l %y %d %n %f %c
 
 - Command to run when the song stops:
-/home/lilian/bin/gmusicbrowser_fullscreen_info/update_ui.py stop %t %a %l %y %d %n %f %c
+/home/lilian/publis/GMusicBrowser-FullScreen-WebApp.git/update_ui.py stop %t %a %l %y %d %n %f %c
 
 Legend:
 %t : title
