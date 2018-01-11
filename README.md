@@ -54,7 +54,7 @@ This short (15s) video shows how to do that:
 
 ## How to use
 - Launching the app also opens it in Chromium (by default).
-- Use 'n' to play next song, 'p' for previous song, 'space' to pause, 'u' and 'd' to increase and decrease volume (needs [this script](https://bitbucket.org/lbesson/bin/src/master/Volume.sh) somewhere in your PATH).
+- Use 'n' to play next song, 'p' for previous song, 'space' to pause, 'u' and 'd' to increase and decrease volume (needs [this script](Volume.sh) somewhere in your PATH).
 
 > This is a **very minimalist** interface to GMusicBrowser, any other manipulation still have to be done from the main GMusicBrowser interface, of course!
 
