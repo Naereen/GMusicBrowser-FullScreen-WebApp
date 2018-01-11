@@ -1,6 +1,7 @@
 # Simple Makefile to experiment and develop
 # my "GMusicBrowser-FullScreen-WebApp" program
 # https://github.com/Naereen/GMusicBrowser-FullScreen-WebApp
+SHELL=/usr/bin/env /bin/bash
 
 # TODO change here, if you prefer firefox over chromium
 main:	open_chromium run
@@ -31,3 +32,7 @@ test_stop:
 
 clean:
 	-rm -vfr __pycache__/ *.pyc
+
+send:	send_zamok
+send_zamok:
+	CP --exclude=.git ./ ${Szam}publis/GMusicBrowser-FullScreen-WebApp.git/

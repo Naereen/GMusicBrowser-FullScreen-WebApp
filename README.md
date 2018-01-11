@@ -72,13 +72,11 @@ This other video (30s) shows how to do that:
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/GMusicBrowser-FullScreen-WebApp/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 [![Analytics](https://ga-beacon.appspot.com/UA-38514290-17/github.com/Naereen/GMusicBrowser-FullScreen-WebApp/README.md?pixel)](https://GitHub.com/Naereen/GMusicBrowser-FullScreen-WebApp/)
-
-[![Contains-Pokémon](https://img.shields.io/badge/Contains-Pokémons-7fb78a.svg)](https://github.com/Naereen/GMusicBrowser-FullScreen-WebApp/tree/master/icons/)
+[![Made with Python v3.4+](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![Made with Bash v4.4+](https://img.shields.io/badge/Made%20with-GNU%20Bash-1f425f.svg)](https://www.gnu.org/software/bash/)
 
 [![ForTheBadge built-with-swag](http://ForTheBadge.com/images/badges/built-with-swag.svg)](https://GitHub.com/Naereen/)
-
-[![Made with Python v3.4+](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Made with Bash v4.4+](https://img.shields.io/badge/Made%20with-GNU%20Bash-1f425f.svg)](https://www.gnu.org/software/bash/)[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-badges](http://ForTheBadge.com/images/badges/uses-badges.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
