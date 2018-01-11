@@ -24,8 +24,8 @@ function updateCoords(e) {
     pointerY = e.clientY || e.touches[0].clientY || e.pageY;
 }
 
-document.addEventListener('mousemove', updateCoords, false);
-document.addEventListener('mouseenter', updateCoords, false);
+// document.addEventListener('mousemove', updateCoords, false);
+// document.addEventListener('mouseenter', updateCoords, false);
 
 function setParticuleDirection(p) {
     var angle = anime.random(0, 360) * Math.PI / 180;
@@ -136,41 +136,41 @@ window.addEventListener(tap, function(e) {
     fireTheFireworks(e)
 }, false);
 
-// Change the function, to display fireworks in case of keyboard shortcuts
-$(document).ready(function() {
-    Mousetrap.bind(["r", "R"], function(e) {
-        console.log("Calling new version of function bound to ['r', 'R']...");
-        doublereload();
-        fireTheFireworks();
-    });
-    Mousetrap.bind(["left", "p", "P"], function(e) {
-        console.log("Calling new version of function bound to ['left', 'p', 'P']...");
-        prev();
-        fireTheFireworks();
-    });
-    Mousetrap.bind(["space", "b", "B"], function(e) {
-        console.log("Calling new version of function bound to ['space', 'b', 'B']...");
-        playpause();
-        fireTheFireworks();
-    });
-    Mousetrap.bind(["right", "n", "N"], function(e) {
-        console.log("Calling new version of function bound to ['right', 'n', 'N']...");
-        next();
-        fireTheFireworks();
-    });
-    Mousetrap.bind(["down", "d", "D"], function(e) {
-        console.log("Calling new version of function bound to ['down', 'd', 'D']...");
-        volumedown();
-        fireTheFireworks();
-    });
-    Mousetrap.bind(["up", "u", "U"], function(e) {
-        console.log("Calling new version of function bound to ['up', 'u', 'U']...");
-        volumeup();
-        fireTheFireworks();
-    });
-    Mousetrap.bind(["h", "H", "?"], function(e) {
-        console.log("Calling new version of[ function bound to ['h', 'H', '?']...");
-        alert("Use 'p' for previous song, 'n' for next song, 'space' for pause, 'f' to toggle full screen.");
-        fireTheFireworks();
-    });
-});
+// // Change the function, to display fireworks in case of keyboard shortcuts
+// $(document).ready(function() {
+//     Mousetrap.bind(["r", "R"], function(e) {
+//         console.log("Calling new version of function bound to ['r', 'R']...");
+//         doublereload();
+//         fireTheFireworks();
+//     });
+//     Mousetrap.bind(["left", "p", "P"], function(e) {
+//         console.log("Calling new version of function bound to ['left', 'p', 'P']...");
+//         prev();
+//         fireTheFireworks();
+//     });
+//     Mousetrap.bind(["space", "b", "B"], function(e) {
+//         console.log("Calling new version of function bound to ['space', 'b', 'B']...");
+//         playpause();
+//         fireTheFireworks();
+//     });
+//     Mousetrap.bind(["right", "n", "N"], function(e) {
+//         console.log("Calling new version of function bound to ['right', 'n', 'N']...");
+//         next();
+//         fireTheFireworks();
+//     });
+//     Mousetrap.bind(["down", "d", "D"], function(e) {
+//         console.log("Calling new version of function bound to ['down', 'd', 'D']...");
+//         volumedown();
+//         fireTheFireworks();
+//     });
+//     Mousetrap.bind(["up", "u", "U"], function(e) {
+//         console.log("Calling new version of function bound to ['up', 'u', 'U']...");
+//         volumeup();
+//         fireTheFireworks();
+//     });
+//     Mousetrap.bind(["h", "H", "?"], function(e) {
+//         console.log("Calling new version of[ function bound to ['h', 'H', '?']...");
+//         alert("Use 'p' for previous song, 'n' for next song, 'space' for pause, 'f' to toggle full screen.");
+//         fireTheFireworks();
+//     });
+// });

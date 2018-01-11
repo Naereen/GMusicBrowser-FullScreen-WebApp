@@ -23,6 +23,13 @@ open_chromium:
 open_macosx:
 	open http://0.0.0.0:9999/ &
 
+# Test and install the .desktop file
+desktop-file-validate:
+	desktop-file-validate GMusicBrowser-FullScreen-WebApp.desktop
+
+desktop-file-install:
+	sudo desktop-file-install GMusicBrowser-FullScreen-WebApp.desktop
+
 # Test
 test_start:
 	./update_ui.py start "Titre de la chanson" "Artiste de la chanson" "Album de la chanson" "Année : 2018" "Disque 1" "1" "test.mp3" "test.jpg"

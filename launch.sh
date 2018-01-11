@@ -3,7 +3,7 @@
 # MIT Licence, https://lbesson.mit-license.org/.
 
 # TODO change path here to a more generic one
-cd /home/lilian/bin/gmusicbrowser_fullscreen_info/
+cd /home/lilian/publis/GMusicBrowser-FullScreen-WebApp.git/
 
 FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999 &
 #FLASK_PID=$?
