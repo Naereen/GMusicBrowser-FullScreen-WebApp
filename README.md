@@ -63,6 +63,10 @@ This other video (30s) shows how to do that:
 
 ![screenshots/demo3.gif](screenshots/demo3.gif)
 
+> It shows a nice "fireworks" effects that appears on the page for each click and each action (either a click on a button or a shortcut).
+> It is coded [with this script](static/js/fireworks.js), which uses the [awesome `anime.js`](http://animejs.com/) project by [@juliangarnier](https://github.com/juliangarnier/) ([see on GitHub](https://github.com/juliangarnier/anime), but I disabled it as I was tired of it.
+> You can enable it again by uncommenting the lines 198-200 on the template file: [`template.html`](template.html).
+
 ----
 
 ## :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/GMusicBrowser-FullScreen-WebApp.svg)](https://github.com/Naereen/GMusicBrowser-FullScreen-WebApp/blob/master/LICENSE)
