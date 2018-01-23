@@ -1,5 +1,6 @@
 // Source https://codepen.io/juliangarnier/pen/gmOwJX
-// (C) Julian Garnier
+// and http://animejs.com/documentation/assets/js/fireworks.js
+// (C) Julian Garnier, 2017
 // Adapted by Lilian Besson (Naereen) https://github.com/Naereen
 // to add a fireworks effect on a background of a page
 
