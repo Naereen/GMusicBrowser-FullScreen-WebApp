@@ -66,7 +66,6 @@
             position: relative;
             font-size: 1.5em;
             color: #f95959;
-            /*
             -webkit-transform: scale(.9);
                -moz-transform: scale(.9);
                  -o-transform: scale(.9);
@@ -75,9 +74,7 @@
                -moz-animation: love .5s infinite linear alternate-reverse;
                  -o-animation: love .5s infinite linear alternate-reverse;
                     animation: love .5s infinite linear alternate-reverse;
-            */
         }
-        /*
         @-webkit-keyframes love {
             to { -webkit-transform: scale(1.1); }
         }
@@ -90,9 +87,8 @@
         @keyframes love {
             to {         transform: scale(1.1); }
         }
-        */
         /* Hack to have fireworks in the background */
-        /*
+        /* ?? */
         canvas {
             position: absolute;
             top: 0;
@@ -101,7 +97,7 @@
             height: 100%;
             z-index: -1;
         }
-        */
+        /* ?? */
     </style>
     <script type="text/javascript">
         function doublereload(){
@@ -135,9 +131,9 @@
             console.log("Adding keyboard shortcut...");
             // MouseTrap keyboard shortcut (http://craig.is/killing/mice)
             Mousetrap.bind(["r", "R"], doublereload);
-            Mousetrap.bind(["left", "p", "P"], prev);
+            Mousetrap.bind(["pageup", "left", "p", "P"], prev);
             Mousetrap.bind(["space", "b", "B"], playpause);
-            Mousetrap.bind(["right", "n", "N"], next);
+            Mousetrap.bind(["pagedown", "right", "n", "N"], next);
             Mousetrap.bind(["down", "d", "D"], volumedown);
             Mousetrap.bind(["up", "u", "U"], volumeup);
             Mousetrap.bind(["h", "H", "?"], function() { alert("Use 'p' for previous song, 'n' for next song, 'space' for pause, 'f' to toggle full screen.")} );
