@@ -137,9 +137,7 @@
             Mousetrap.bind(["down", "d", "D"], volumedown);
             Mousetrap.bind(["up", "u", "U"], volumeup);
             Mousetrap.bind(["h", "H", "?"], function() { alert("Use 'p' for previous song, 'n' for next song, 'space' for pause, 'f' to toggle full screen.")} );
-            Mousetrap.bind(["f", "F"], toggleFullScreen);
-            // XXX Try to force the full screen, but it does not work
-            // fullScreen();
+            Mousetrap.bind(["shift+f5", "f", "F"], toggleFullScreen);
         });
 	</script>
 </head>
