@@ -71,7 +71,7 @@ This other video (30s) shows how to do that:
 
 ## :scroll: License ? [![GitHub license](https://img.shields.io/github/license/Naereen/GMusicBrowser-FullScreen-WebApp.svg)](https://github.com/Naereen/GMusicBrowser-FullScreen-WebApp/blob/master/LICENSE)
 [MIT Licensed](https://lbesson.mit-license.org/) (file [LICENSE](LICENSE)).
-© [Lilian Besson](https://GitHub.com/Naereen), 2018.
+© [Lilian Besson](https://GitHub.com/Naereen), 2018-2021.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/GMusicBrowser-FullScreen-WebApp/graphs/commit-activity)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
