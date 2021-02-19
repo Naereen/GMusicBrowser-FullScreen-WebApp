@@ -72,7 +72,7 @@ def main(args):
     for name, arg in zip(names, args):
         # print(f"Argument of name '{name}' : {arg}")  # DEBUG
         if name != "action":
-            if name == 'filepath' or 'coverpath':
+            if name == 'filepath' or name == 'coverpath':
                 # TODO make this more generic
                 if arg.startswith('/home/lilian/Music/'):
                     arg = arg[len('/home/lilian/Music/'):]
