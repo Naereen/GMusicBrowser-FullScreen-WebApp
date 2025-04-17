@@ -6,12 +6,24 @@ SHELL=/usr/bin/env /bin/bash
 # TODO change here, if you prefer firefox over chromium
 main:	open_chromium run
 
+create-venv:
+	python -m venv ./venv/
+
+install-requirements:
+	. ./venv/bin/activate && python -m pip install -r requirements.txt
+
+activate-venv:
+	. ./venv/bin/activate
+
 run:
-	FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999
+	# FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999
+	# FLASK_APP=start_ui.py ./venv/bin/flask run --host=0.0.0.0 --port=9999
+	. ./venv/bin/activate && FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999
 
 debug:
 	export FLASK_DEBUG=1
-	FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999
+	# FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999
+	. ./venv/bin/activate && FLASK_APP=start_ui.py flask run --host=0.0.0.0 --port=9999
 
 # Open the page in various browser
 open_firefox:
@@ -32,10 +44,10 @@ desktop-install:
 
 # Test
 test_start:
-	./update_ui.py start "Titre de la chanson" "Artiste de la chanson" "Album de la chanson" "Année : 2018" "Disque 1" "1" "test.mp3" "test.jpg"
+	./venv/bin/python ./update_ui.py start "Titre de la chanson" "Artiste de la chanson" "Album de la chanson" "Année : 2018" "Disque 1" "1" "test.mp3" "test.jpg"
 
 test_stop:
-	./update_ui.py stop "Titre de la chanson" "Artiste de la chanson" "Album de la chanson" "Année : 2018" "Disque 1" "1" "test.mp3" "test.jpg"
+	./venv/bin/python ./update_ui.py stop "Titre de la chanson" "Artiste de la chanson" "Album de la chanson" "Année : 2018" "Disque 1" "1" "test.mp3" "test.jpg"
 
 clean:
 	-rm -vfr __pycache__/ *.pyc
